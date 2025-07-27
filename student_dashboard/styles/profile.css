@@ -1,0 +1,387 @@
+body{
+    background:linear-gradient(to bottom,#51ffcb,#fcd568);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Urbanist", sans-serif;
+    margin-left: 60px;
+    margin-top: 50px;
+    height:720px;
+}
+.nav ul li{
+    list-style: none;
+}
+.img1{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:250px;
+}
+.img2{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:300px;
+}
+.img3{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:350px;
+}
+.img4{
+    width:50%;
+    position: absolute;
+    left: 14px;
+    top:650px;
+}
+.nav{
+   background:linear-gradient(to bottom,#9ff9de,#f9e19f);
+   
+    border-radius: 30px;
+    height: 700px;
+    width: 50px;
+    position: absolute;
+    left: 30px;
+
+}
+.txt1{
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    font-size: 40px;
+}
+.logo {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+    width: 37%;
+    opacity: 0.5;
+    margin: 0px;
+}
+.name{
+    padding-top: 170px;
+    font-size: 27px;
+    font-weight: 1000;
+    margin: 0px;
+    margin-top:15px;
+}
+.txt2{
+    font-size: 17px;
+    margin: 0px;
+    margin-top: 9px;
+    line-height: 25px;
+}
+.profile{
+   position: absolute;
+   left:850px;
+   top:100px;
+   width: 35%;
+   height: 60%;
+   text-align: right;
+}
+.button1 {
+    position: absolute;
+    left: 250px;
+    top: 114px;
+    /* bottom: 20px; */
+    width: 16%;
+    height: 11%;
+    font-size: 17px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(90, 90, 177);
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #adfae3;
+    color:#5f5c5c;
+    cursor: pointer;
+    
+ }
+.footer{
+    position: absolute;
+    top:720px;
+    width:90%;
+}
+.f1 {
+    position: absolute;
+    left: 1024px;
+}
+.play{
+    position: absolute;
+    width: 2.5%;
+    left:610px;
+    top:-14px;
+}
+.app {
+    position: absolute;
+    width: 3%;
+    left: 655px;
+    top: -17px;
+}
+.coming {
+    position: absolute;
+    font-size: 13px;
+    left: 613px;
+    top: 15px;
+}
+
+.button2{
+    position: absolute;
+    width:15%;
+    height: 50px;
+    top:-21px;
+    left:80px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    transition-duration: 0.4s;
+}
+.button2:hover{
+   background-color: #e4ebe9;
+   color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responive Designing Using MediaQuary */
+@media (max-width: 991px)
+{
+    /* *
+    {
+        overflow-x: hidden;
+    } */
+
+
+    body
+    {
+        
+        height: 1045px;
+        background-size: contain;
+        overflow-y: scroll;
+
+    }
+	header,
+	header.sticky
+	{
+		padding: 10px 20px;
+	}
+	header .navigation
+	{
+		display: none;
+	}
+	header .navigation.active
+	{
+		width: 87%;
+		height: calc(100% - 68px);
+        padding-left: 0px;
+		position: fixed;
+		top: 68px;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background: #fff;
+	}
+	header .navigation li
+	{
+		margin-left: 0;
+	}
+	header .navigation li a
+	{
+		text-decoration: none;
+		color: #111;
+		font-size: 1.6em;
+		font-weight: 300;
+	}
+	.menuToggle {
+        position: absolute;
+        top: -52px;
+        left: -14px;
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transition: 1000ms;
+        z-index: 1;
+    }
+	.menuToggle.active
+	{
+		background: url(close.png);
+		background-size: 25px;
+		background-repeat: no-repeat;
+		background-position: center;
+    z-index: 1;
+	}
+	header.sticky .menuToggle
+	{
+		filter: invert(1);
+	}
+
+
+    .img1
+    {
+    width: 5%;
+    margin-left: 170px;
+    }
+    .img2
+    {
+    width: 5%;
+    margin-left: 170px;
+    }
+    .img3
+    {
+    width: 5%;
+    margin-left: 170px;
+    }
+    
+    .img4
+    {
+    width: 5%;
+    margin-left: 170px;
+    margin-top: 100px;
+    }
+
+    .nav
+    {
+        background: transparent;
+    }
+    .nav ul li{
+        list-style: none;
+    }
+
+
+    .txt1
+    {
+        top: 14px;
+        left: 200px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .logo
+    {
+        position: absolute;
+        top: 80px !important;
+        right: 10px;
+        left: 30px !important;
+        width: 50%;
+        opacity: 0.5;
+        margin: 0px;
+        margin-left: 80px;
+        z-index: -1;
+    }
+
+    
+    .name
+    {
+        font-size: 27px;
+        font-weight: 1000;
+    }
+    .txt2{
+        font-size: 17px;
+        margin: 0px;
+        margin-top: 9px;
+        line-height: 25px;
+    }
+    .profile
+    {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 95%;
+        height: 60%;
+        text-align: center;
+        z-index: -1;
+    }
+    .profile .name
+    {
+        margin-top: 90px;
+    }
+    .chat-container {
+        position: absolute;
+        top: 430px !important;
+        left: 45px !important;
+        
+        bottom: 20px;
+        right: 20px;
+        width: 300px;
+        overflow: hidden;
+        background-color: #fff;
+        border: 1px solid white;
+        border-radius: 7px;
+        background: rgba(76, 175, 80, 0.2);
+        z-index: -1;
+    }
+    .footer
+    {
+        position: absolute;
+        left: -52px;
+        width: 500px;
+    }
+    .button1 {
+        position: absolute;
+        top: 216px;
+        left: 160px;
+        font-size: 10px;
+        width: 50px;
+        height: 30px;
+    }
+    .button2 {
+        position: absolute;
+        width: 33%;
+        height: 45px;
+        top: 235px;
+        left: 80px;
+        border-radius: 12px;
+        border: none;
+        background-color: white;
+        font-weight: 700;
+        transition-duration: 0.4s;
+    }
+    .play {
+        position: absolute;
+        width: 4.5%;
+        left: 338px;
+        top: 238px;
+    }
+    .app {
+        position: absolute;
+        width: 4.5%;
+        left: 368px;
+        top: 238px;
+    }
+    .coming {
+        position: absolute;
+        font-size: 11px;
+        left: 331px;
+        top: 254px;
+    }
+    .f1 {
+        position: absolute;
+        left: 120px;
+        font-size: 13px;
+        top: 323px;
+    }
+}
