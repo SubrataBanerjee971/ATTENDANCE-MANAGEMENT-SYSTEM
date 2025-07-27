@@ -1,0 +1,1162 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    
+}
+
+a{
+    color: #000;
+}
+body{
+    background:linear-gradient(to bottom right,#52efde , #ffefe7 ,rgba(128, 0, 70, 0.361));
+    background-repeat: no-repeat; 
+    height: 660px;
+    width: auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-size: cover;
+    font-family: "Urbanist", sans-serif;
+    overflow-x: hidden;
+}
+.total#blur.active{
+   
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+
+/* /Starting of Page 1/ */
+
+
+.topnav{
+    padding-top: 40px;
+    display: inline;
+}
+.nav ul li a{
+    margin-top: 10px;
+    text-decoration: none ;
+    text-align: right;
+    color: black;
+    margin-right: 50px;
+    font-size: 20px;
+
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+}
+.nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav ul li a:hover::after{
+    width: 50%;
+}
+.nav ul{
+   
+    
+    text-decoration: none;
+    display: inline;
+    padding: 0px;
+    z-index: 2 !important;
+    position: absolute !important;
+    margin-left: 1057px !important;
+}
+
+.main{
+    font-size: 80px;
+   padding-top: 90px;
+   line-height: 1px;
+}
+.fisrt_teacher{
+   
+    position:absolute;
+    width: 58.5%;
+    left: 540px;
+    top: 71px;
+    
+}
+.first_boy{
+   
+    position:absolute;
+    left: 1040px;
+    width:27%;
+    bottom: 50px;
+}
+
+
+.logo{
+    margin-right: 835px;
+    margin-left: 40px;
+    display: inline;
+    font-size: 20px;
+}
+.text{
+    display:inline;
+    color: grey;
+    font-size: medium;
+}
+.p{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    display: inline;
+}
+.p1{
+    margin:0px;
+    margin-bottom: 55px;
+}
+.button{
+    margin-top: 20px;
+}
+.student_button{
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: large;
+    margin-right: 8px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+.student_button:hover{
+    background-color:white;
+    color:#7ebaee;
+
+}
+.teacher_button{
+    border-radius: 30px;
+    border: 0px;
+    transition-duration: 0.4s;
+    background-color:white;
+    width: 180px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 187px;
+}
+.teacher_button:hover{
+    background-color: #7ebaee;
+    color:white;
+
+}
+.logoimg{
+    position: absolute;
+    width:1.5%;
+    left: 66px;
+    top: 52px;
+    margin-right: 10px;
+}
+
+/* /End of Page 1/ */
+
+
+
+/* /Starting of Page 2/ */
+
+.container2
+{
+    position: absolute;
+    top: 718px;
+    left: 0px;
+    height: 720px;
+    background:linear-gradient(to bottom left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+}
+.female_teacher
+{
+    position: absolute;
+    top: 158px;
+    bottom: 5px;
+    width: 37%;
+    right: 747px;
+}
+.male_teacher
+{
+    position: absolute;
+    top: 37px;
+    bottom: 5px;
+    width: 45%;
+    right: 930px;
+}
+
+.right_img
+{
+    width: 40%;
+    padding-left: 650px;
+    padding-top: 20px;
+}
+.second_head
+{
+    padding-left: 640px;
+    padding-top: 30px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+
+.images{
+   position: absolute;
+   top:200px;
+}
+.images img{
+     height: 500px;
+}
+.images .fisrt_teacher{
+    position: absolute;
+    left: 160px;
+    z-index: -1;
+}
+
+/* /End of Page 2/ */
+
+
+
+
+/* /Starting of Page 3/ */
+
+.container3{
+    position: absolute;
+    top: 1438px;
+    left: 0px;
+    height: 720px;
+    background:linear-gradient(to top left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+    width: 1519.2px;
+}
+.third_heading{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    color:rgb(69, 69, 69);
+    font-weight: bold;
+}
+.third_heading_main
+{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.cards
+{
+    width: 1519.2px;
+}
+
+.blank_area
+{
+    width: 65px;
+    display: inline-block;
+}
+.card
+{
+    border-radius: 30px;
+    width: 235px;
+    height: 475px;
+    transition-duration: 0.4s;
+    background: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.card_img
+{
+    width: 30%;
+    padding-top: 50px;
+}
+.custom_third_text{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.p2{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.p3{
+    font-size: 30px;
+    margin: 0px;
+}
+.card:hover{
+    background-color:#fff6f2;
+  color:#7ebaee;
+}
+
+.third_button{
+    height:60px;
+    width:150px;
+    border-radius: 30px;
+    font-size: large;
+    border-color: #fff6f2;
+    background-color:#fff6f2 ;
+    transition-duration: 0.4s;
+    display: inline-block;
+    margin-left: 680px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0px;
+}
+.third_button:hover{
+    background-color: #7ebaee;
+}
+.custom_img{
+    height: 20%;
+    width: 10%;
+}
+.shield_img{
+    height: 23%;
+    width: 30%;
+}
+.continuous_img{
+    height: 23%;
+    width: 29%;
+}
+
+/* /End of Page 3*/
+
+
+/* /Starting of Page 4/ */ 
+
+
+.container4 {
+    position: absolute;
+    top: 2158px;
+    left: 0px;
+    height: 1560px;
+    padding-left: 40px;
+    background: linear-gradient(to bottom left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+    width: 1519.2px;
+}
+
+.rocket{
+    position: absolute;
+    left: 690px;
+    width:44%;
+    top:50px;
+}
+.fourth_heading
+{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.fourth_txt
+{
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* /End of Page 4*/ */
+
+
+
+
+/* /Starting of Page 5/ */
+
+.container5
+{
+    position: absolute;
+    /* z-index: -1; */
+    top: 2878px;
+    left: 0px;
+    height: 850px;
+    padding-left: 40px;
+    background:linear-gradient(to top left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+    width: 1519.2px;
+}
+
+.main-footer {
+    position: absolute;
+    top: 3372px;
+}
+
+.fifth_heading
+{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 354px;
+    margin-bottom: 0px;
+}
+.fifth_card {
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    height: 200px;
+    top: 110px;
+}
+.sixth_card {
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    height: 200px;
+    top: 85px;
+    left: 1000px;
+}
+.fifth_blank
+{
+    width: 750px;
+    display: inline-block;
+}
+.office_txt
+{
+    font-size: 25px;
+}
+.office_txt2
+{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.office_head2
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.office_head
+{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.easyattend {
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 70px;
+    margin-left: 540px;
+    font-size: 24px;
+    width: 1000px;
+}
+.scrollTop
+{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.scrollTop:hover{
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+/* -----------------------------------------popup form------------------------------------ */
+
+/* ===== Google Font Import - Poformsins ===== */
+.form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #popup.active{
+    top: 10%;
+    left: 35%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color: #151717;
+    font-weight: 600;
+  }
+  
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 100%;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .button-submit:hover {
+    background-color: #252727;
+  }
+  
+  .p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    border: 1px solid #2d79f3;
+    
+  }
+
+
+  
+      
+/* /==================================*End of Page 5*/
+/*==================================*starting of Page 6*/ */
+
+
+
+.slider-container {
+    position: absolute;
+    top: 2800px;
+    left: 80px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.h11{
+    position: absolute;
+    left: 42%;
+    top:2800px;
+    font-size: 50px;
+    background: linear-gradient(to right, #000, #c7c6c6);
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; 
+    color: transparent; /* Hide the text */
+    font-weight: 500;
+
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 92%;
+    position: absolute;
+    top: 2800px;
+}
+
+.card1 {
+    margin-top: 80px;
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0 rgba(155, 153, 153, 0.902);
+    transition: transform 0.5s ease-in-out;
+    background-color: #ffefe7;
+    width: 75%;
+    height: 400px;
+    animation: popUpCard 1.5s ease forwards; /* Add animation */
+    opacity: 0; /* Start with opacity 0 */
+    transform-origin: right center; /* Scale from the right center */
+}
+
+@keyframes popUpCard {
+    0% {
+        transform: translateX(100%) scaleX(0);
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateX(0%) scaleX(1);
+    }
+}
+
+.card1:nth-child(2) {
+    animation-delay: 0.3s; /* Delay for the second card */
+}
+
+.card1:nth-child(3) {
+    animation-delay: 0.6s; /* Delay for the third card */
+}
+
+.card1:nth-child(4) {
+    animation-delay: 0.9s; /* Delay for the fourth card */
+}
+
+
+.card1-image {
+    /* padding-left: 35px; */
+    width: 97%;
+    height: 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid #e7e6e6;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card1-content {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 100px;
+    border-radius: 30px;
+    color: rgb(252, 247, 247);
+}
+
+.card1:hover .card1-content {
+    display: block;
+}
+
+.card1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card1-content {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.card1-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card1-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.card1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.card1-image {
+    transition: transform 0.3s ease;
+}
+
+.card1-content {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+}
+
+.card1:hover .card1-image {
+    transform: scale(0.8, 0.8); /* Adjust the scale factor as needed */
+    
+}
+
+.card1:hover .card1-content {
+    display: block;
+    opacity: 1;
+    color: #fff;
+    font-weight: 900;
+    border-image: fill 0 linear-gradient(rgba(217, 213, 213, 0.067),#434343,#000);
+    opacity: 1;
+    width: 100%;
+    height: 50%;
+    transition: 0.3s ease;
+}
+
+.card1-image::after {
+    content: '';
+    position: absolute;
+    top: -2px; /* Adjust the distance from the bottom */
+    right: 5px; /* Adjust the distance from the right */
+    width: 22px;
+    height: 37px;
+    background-color: #fff;
+    opacity: 1;
+    clip-path: polygon(0% 20%, 100% 20%, 100% 100%, 50% 80%, 0% 100%);
+    transform: rotate(0deg);
+}
+
+.facebook{
+    width: 9%
+}
+
+
+
+
+
+
+
+/* Responsive Design by Media Quary ******************************************/
+
+@media (max-width: 480px){
+    body
+    {
+      background-size: cover;
+      height: 1000px;
+    }
+    
+  }
+  
+  @media (max-width: 991px)
+  {
+    body
+    {
+      height: 900px;
+    }
+      header,
+      header.sticky
+      {
+          padding: 10px 20px;
+      }
+      header .navigation
+      {
+          display: none;
+      }
+      header .navigation.active
+      {
+          width: 100%;
+          height: calc(100% - 68px);
+          position: fixed;
+          top: 68px;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background: #fff;
+      }
+      header .navigation li
+      {
+          margin-left: 0;
+      }
+      header .navigation li a
+      {
+          text-decoration: none;
+          color: #111;
+          font-size: 1.6em;
+          font-weight: 300;
+      }
+      .menuToggle {
+        position: absolute;
+        top: 25px;
+        left: 355px;
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transition: 1000ms;
+        z-index: 1;
+        justify-content: center;
+    }
+      .menuToggle.active
+      {
+          background: url(close.png);
+          background-size: 25px;
+          background-repeat: no-repeat;
+          background-position: center;
+      z-index: 1;
+      }
+      header.sticky .menuToggle
+      {
+          filter: invert(1);
+      }
+
+
+      /* .topnav
+      {
+        height: 300px;
+        width: 50%;
+      } */
+      .logoimg {
+        position: absolute;
+        width: 6.5%;
+        left: 37px;
+        top: 33px;
+        margin-right: 10px;
+    }
+    .logo {
+        font-size: 20px;
+        position: absolute !important;
+        top: 34px !important;
+        margin: 0px;
+        font-weight: bold;
+    }
+    .main p
+    {
+        text-decoration: none;
+        scroll-behavior: smooth;
+        /* overflow-x: hidden; */
+        font-size: 55px;
+    }
+    .fisrt_teacher {
+        position: absolute;
+        width: 126.5%;
+        left: -132px;
+        top: 562px;
+    }
+    .first_boy {
+        position: absolute;
+        left: 175px;
+        top: 679px;
+        width: 65%;
+        bottom: 50px;
+    }
+    .container2 {
+        position: absolute;
+        top: 957px;
+        left: 0px;
+        height: 934px;
+        background: linear-gradient(to bottom left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+    }
+    .student_button {
+        border-radius: 30px;
+        transition-duration: 0.4s;
+        background-color: white;
+        width: 180px;
+        height: 50px;
+        font-size: large;
+        margin-right: 8px;
+        border: 0px;
+        cursor: pointer;
+        font-family: "Urbanist", sans-serif;
+        margin-left: 18%;
+    }
+    .teacher_button {
+        border-radius: 30px;
+        border: 0px;
+        transition-duration: 0.4s;
+        background-color: white;
+        width: 180px;
+        height: 50px;
+        font-size: large;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.8);
+        font-family: "Urbanist", sans-serif;
+        margin-bottom: 187px;
+        margin-top: 20px;
+        margin-left: 18%;
+    }
+    .male_teacher {
+        position: absolute;
+        top: 560px;
+        bottom: 5px;
+        width: 87%;
+        left: -62px !important;
+    }
+    .female_teacher {
+        position: absolute;
+        top: 618px;
+        bottom: 5px;
+        width: 75%;
+        left: 132px !important;
+    }
+
+    .second_head {
+        padding-left: 19px !important;
+        padding-top: 30px;
+        font-size: 27px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .right_img {
+        width: 85%;
+        padding-left: 29px;
+        padding-top: 136px;
+    }
+
+
+
+
+    .container3 {
+        position: absolute;
+        top: 1890px;
+        left: 0px;
+        height: 941px;
+        background: linear-gradient(to top left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+        width: 1519.2px;
+    }
+    .card {
+        border-radius: 30px;
+        width: 174px;
+        height: 225px;
+        transition-duration: 0.4s;
+        background: rgba(255, 255, 255, 0.6);
+        display: inline-block;
+        padding-left: 60px;
+        margin-top: 20px;
+        padding-right: 60px;
+        text-align: center;
+        margin-left: -35px !important;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .cards {
+        width: 250px;
+        margin-left: 105px;
+    }
+    .card_img {
+        width: 31%;
+        padding-top: 20px;
+    }
+
+.third_txt {
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    font-size: 10px;
+}
+.third_heading {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(69, 69, 69);
+    font-weight: bold;
+}
+    .third_heading_main {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        width: 29%;
+        margin-bottom: 0px;
+    }
+    .card:nth-child(1){
+        margin-left: 20px !important;
+        position: absolute !important;
+        left: 10px !important;
+    }
+    .third_button {
+        height: 60px;
+        width: 150px;
+        border-radius: 30px;
+        font-size: large;
+        border-color: #fff6f2;
+        background-color: #fff6f2;
+        transition-duration: 0.4s;
+        display: inline-block;
+        margin-left: 9%;
+        margin-top: 2% !important;
+        cursor: pointer;
+        border: 0px;
+    }
+
+
+
+
+    .container4 {
+        position: absolute;
+        top: 2830px;
+        left: 0px;
+        height: 2124px;
+        padding-left: 40px;
+        background: linear-gradient(to bottom left ,rgba(128, 0, 70, 0.361) , #ffefe7,#52efde);
+        width: 1519.2px;
+    }
+    .h11 {
+        position: absolute;
+        left: 126px;
+        top: 3755px;
+        font-size: 35px;
+        background: linear-gradient(to right, #000, #c7c6c6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 500;
+    }
+    .slider {
+        display: inline-block !important;
+        transition: transform 0.5s ease-in-out;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: absolute;
+        top: 3858px;
+        left: 11px;
+    }
+    .card1:nth-child(2) {
+        top: -250px;
+        left: 198px;
+    }
+    .card1:nth-child(3) {
+        top: -250px;
+        left: 198px;
+    }
+    .card1:nth-child(4) {
+        top: -498px;
+        left: 0px;
+    }
+    .rocket {
+        position: absolute;
+        left: -35px;
+        width: 32%;
+        top: 493px;
+    }
+    .fourth_heading {
+        font-size: 32px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .fourth_txt {
+        font-size: 23px;
+        color: rgba(0, 0, 0, 0.712);
+        margin-left: 3%;
+        /* margin-top: 50px; */
+        width: 18%;
+        /* height: 67%; */
+        text-align: center;
+    }
+    .fifth_heading {
+        font-size: 45px;
+        position: absolute;
+        top: 928px;
+        left: -107px;
+        /* margin-left: 100px; */
+        /* margin-top: 570px; */
+        width: 354px;
+        margin-bottom: 0px;
+        /* position: absolute; */
+        /* top: 24%; */
+    }
+    .card1 {
+        margin-top: 80px;
+        /* flex: 1; */
+        margin: 10px;
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 5px 15px 0 rgba(155, 153, 153, 0.902);
+        transition: transform 0.5s ease-in-out;
+        background-color: #ffefe7;
+        width: 184px!important;
+        height: 241px !important;
+        animation: popUpCard 1.5s ease forwards;
+        opacity: 0;
+    }
+    .fifth_card {
+        position: absolute;
+        left: -5px;
+        top: 1121px;
+    }
+    .sixth_card {
+        position: absolute;
+        left: -5px;
+        top: 1300px;
+    }
+    .easyattend
+    {
+        position: absolute;
+        left: -5px !important;
+    }
+    .easyattend {
+        position: absolute;
+        left: -560px !important;
+        font-size: 18px;
+        top: 1530px;
+    }
+    }
