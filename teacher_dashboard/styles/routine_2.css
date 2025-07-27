@@ -1,0 +1,981 @@
+
+
+body{
+    background:linear-gradient(#0ddec6,#0ecadc,#c127e4);
+    background-repeat: no-repeat;
+    height: 720px;
+    /* width: 720px; */
+    font-family: "Urbanist", sans-serif;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-size: cover;
+}
+
+/*============================= button============================== */
+
+.pinBtn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    left: 1235px;
+    top: 66px;
+}
+  
+  .IconContainer {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(255, 136, 255),rgb(172, 70, 255));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .3s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    z-index: 1;
+    transition-duration: .3s;
+    font-size: 1.04em;
+  }
+  
+  .pinBtn:hover .IconContainer {
+    width: 90px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .pinBtn:hover .text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: .3s;
+  }
+  
+  .pinBtn:active {
+    transform: scale(0.95);
+    transition-duration: .3s;
+  }
+
+
+/*============================= end button============================== */
+
+.p1 {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    left: 635px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.nav ul li{
+    list-style: none;
+}
+.img1{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:200px;
+}
+.img2{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:250px;
+}
+.img3{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:300px;
+}
+.img4{
+    width:48%;
+    position: absolute;
+    left: 14px;
+    top:350px;
+}
+.img5{
+    width:50%;
+    position: absolute;
+    left: 14px;
+    top: 638px;
+}
+.nav{
+    background:linear-gradient(#c4faf7f1,#92ebf1,#de84f6);
+    border-radius: 30px;
+    height: 680px;
+    width: 50px;
+    position: absolute;
+    left: 30px;
+    top: 55px;
+
+}
+.sec{
+    background:linear-gradient(#c4faf7f1,#92ebf1,#de84f6);
+    border-radius: 30px;
+    height: 580px;
+    width: 1080px;
+    position: absolute;
+    left: 255px;
+    top: 150px;
+}
+.div1{
+    background:linear-gradient(#def7f7f1,#d2fafc,#f3dafa);
+   
+    border-radius: 30px;
+    height: 485px;
+    width: 910px;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+.div2{
+    background-color: #dcfbfc;
+    border-radius: 40px;
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    text-align: center;
+    padding-top: 11px;
+}
+.div3{
+    background-color: #dcfbfc;
+    border-radius: 40px;
+    height: 60px;
+    width: 900px;
+    position: absolute;
+    left: 155px;
+    top: 15px;
+    text-align: center;
+    padding-top: 21px;
+    
+}
+.div4{
+    background:linear-gradient(#def7f7f1,#d2fafc,#f3dafa);
+    border-radius: 30px;
+    height:485px;
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 37px;
+}
+.b1{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b1:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic1{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b2{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b2:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic2{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b3{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b3:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic3{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b4{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b4:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic4{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b5{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b5:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic5{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b6{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:35px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b6:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic6{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+
+
+.b7{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b7:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic7{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b8{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b8:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic8{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b9{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b9:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic9{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b10{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b10:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic10{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b11{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b11:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic11{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b12{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:113px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b12:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic12{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+
+
+.b13{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b13:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic13{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b14{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b14:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic14{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b15{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b15:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic15{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b16{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b16:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic16{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b17{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b17:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic17{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b18{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:191px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b18:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic18{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+
+
+
+
+.b19{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b19:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic19{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b20{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b20:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic20{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b21{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b21:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic21{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b22{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b22:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic22{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b23{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b23:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic23{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b24{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:269px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b24:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic24{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+
+
+.b25{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b25:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic25{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b26{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b26:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic26{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b27{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b27:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic27{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b28{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b28:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic28{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b29{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b29:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic29{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b30{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:347px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b30:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic30{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+
+
+.b31{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 85px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b31:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic31{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b32{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 232px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b32:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic32{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b33{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 370px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b33:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic33{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b34{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 500px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b34:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic34{
+    background-size: cover;
+    width: 188%;
+   
+}
+.b35{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 640px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b35:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic35{
+    background-size: cover;
+    width: 188%;
+   
+}
+
+.b36{
+    width:3%;
+    height: 7.5%;
+    position: absolute;
+    left: 780px;
+    top:425px;
+    opacity: 0.8;
+    padding-left: 1px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.b36:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
+.ic36{
+    background-size: cover;
+    width: 188%;
+   
+}
+td{
+    text-decoration: none;
+}
